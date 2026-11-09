@@ -1,0 +1,17 @@
+{
+  "name": "living-portal",
+  "version": "1.0.0",
+  "description": "The Living Portal SmartSpectra milestone",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron ."
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@smartspectra/node-sdk": "3.4.0",
+    "electron": "42.0.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

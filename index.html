@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Living Portal</title>
+  <link rel="stylesheet" href="portal.css">
+  <script src="portal.js" defer></script>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">The observatory</p>
+    <h1>The Living Portal</h1>
+    <p>The camera lets SmartSpectra estimate chest movement from your breathing and move the portal ring. Breathe normally.</p>
+    <p class="consent">SmartSpectra processes camera frames on this device and contacts Presage for SDK authorization. This app saves and shares no frames or breathing readings. SDK diagnostic telemetry is disabled.</p>
+    <svg viewBox="0 0 280 280" aria-hidden="true">
+      <circle class="guide" cx="140" cy="140" r="116"/>
+      <circle id="ring" cx="140" cy="140" r="89"/>
+    </svg>
+    <p id="status" role="status">Camera off</p>
+    <div class="controls">
+      <button id="start">Enable Camera</button>
+      <button id="stop" disabled>Stop Camera</button>
+    </div>
+  </main>
+</body>
+</html>

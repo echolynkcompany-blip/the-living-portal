@@ -1,0 +1,15 @@
+:root { color-scheme: dark; font: 16px system-ui, sans-serif; background: #11121c; color: #f0eff8; }
+body { margin: 0; }
+main { max-width: 34rem; margin: auto; padding: 1.4rem 1.5rem; text-align: center; }
+h1 { margin: 0; font: 2.5rem Georgia, serif; }
+p { line-height: 1.5; }
+.eyebrow { color: #c8b2ff; text-transform: uppercase; letter-spacing: .14em; }
+.consent { color: #c1bfce; font-size: .9rem; }
+svg { width: min(100%, 250px); display: block; margin: auto; }
+circle { fill: none; }
+.guide { stroke: #56506b; stroke-dasharray: 3 7; }
+#ring { stroke: #9a89c0; stroke-width: 3; }
+#ring.live { stroke: #d9c2ff; filter: drop-shadow(0 0 6px #ab7fff); }
+.controls { display: flex; justify-content: center; gap: .65rem; }
+button { padding: .65rem 1rem; border: 1px solid #bda9ed; border-radius: .4rem; color: inherit; background: #30264b; font: inherit; }
+button:disabled { opacity: .55; }
